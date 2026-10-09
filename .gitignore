@@ -1,0 +1,24 @@
+.build/
+.swiftpm/
+.codex/
+dist/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+!.env.example
+# Local signing credentials must never enter the public repository.
+*.p12
+*.p8
+*.key
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+
+# Keep local research, screenshots, recordings, and release audit notes private.
+/docs/*
+!/docs/development.md
+!/docs/distribution.md
+/Resources/AppIcon-design.md
+/script/probe_typeless_client.mjs
